@@ -10,7 +10,7 @@ function insert_Row() {
 
 	newrow.appendChild(cell1)
 	newrow.appendChild(cell2)
-	table.prepend(newrow)
+	table.querySelector("tbody").prepend(newrow)
   
   
 }
